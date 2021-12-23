@@ -1,0 +1,50 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ .pontos{
+   font-size: 2rem;
+ }
+ .cabeçalho h1{
+    font: normal 2rem sans-serif;
+    text-align: center;
+    background: slateblue;
+    color: white;
+    padding: 20px;
+ }
+ .conteudo-principal{
+    overflow: hidden;
+    border: 2px solid black;
+    height: 300px;
+ }
+ .perguntas div{
+    height: 400px;
+  
+
+}
+ .perguntas{
+    transition: ease 1s;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+ }
+ .perguntas  h2, .resultado h2{
+    text-align: center;
+    font: normal 1.4rem sans-serif;
+    width: 100%;
+    margin: 20px;
+ }
+ .perguntas p , .resultado h2{
+    background: skyblue;
+    font: normal 1.2rem sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 4px solid slateblue;
+    margin: 10px;
+    cursor: pointer;
+ }
+ 
