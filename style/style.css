@@ -16,16 +16,20 @@
  .conteudo-principal{
     overflow: hidden;
     border: 2px solid black;
-    height: 300px;
+    height: 400px;
+
  }
  .perguntas div{
-    height: 400px;
-  
+   
+   height: 400px;
+   width: 100%;
+   margin: 50px 0;
+   border: solid 2px red;
 
 }
  .perguntas{
     transition: ease 1s;
-    height: 300px;
+    height: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
